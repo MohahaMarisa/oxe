@@ -3579,6 +3579,15 @@ h5.cyg_widget-title {
     -webkit-transform: scale(1.05);
     -ms-transform: scale(1.05);
     transform: scale(1.05);
+    opacity:50%;
+}
+
+.grid-project:hover .grid-project-meta .hide {
+    display:block;
+}
+
+.hide{
+    display:none;
 }
 
 .grid-project img {
