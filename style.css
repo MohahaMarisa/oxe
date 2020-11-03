@@ -3489,6 +3489,12 @@ h5.cyg_widget-title {
     line-height: 18px;
 }
 
+.grid-project-description {
+    font-size: 14px;
+    text-align: right;
+    line-height: 18px;
+}
+
 .grid-project-cat {
     font-size: 10px;
     text-transform: uppercase;
@@ -3501,6 +3507,7 @@ h5.cyg_widget-title {
 
 .grid-project-cat,
 .grid-project-title,
+.grid-project-description,
 .grid-project-index {
     display: block;
     overflow: hidden
@@ -3584,10 +3591,15 @@ h5.cyg_widget-title {
 
 .grid-project:hover .grid-project-meta .hide {
     display:block;
+    opacity:100%;
 }
 
 .hide{
     display:none;
+    opacity:0%;
+    -webkit-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
 }
 
 .grid-project img {
